@@ -1,0 +1,551 @@
+*, html, body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Manrope', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* navbar */
+.menu >.pict >img{
+  margin-top: -10px;
+  width: 100px;
+}
+
+nav{
+  width: 90%;
+  font-size: 1em;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.menu  {
+  display: flex;
+}
+.menu > .navigation{
+  list-style-type: none;
+  display: flex;
+}
+
+.menu >ul >li >a{
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.log{
+  text-decoration: none;
+  padding: 20px;
+  color: #8c82fc; 
+}
+
+.sign{
+  color:#ffffff ;
+  text-decoration: none;
+  background-color: #8c82fc;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* topnav */
+.topnav {
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+
+.title-top >img {
+  width: 25%;
+}
+
+.topnav #myLinks .btn-top {
+  margin: 5px auto;
+  color: #ffffff;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #8C82FC;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.topnav  #myLinks {
+  display: none;
+  background-color: #f8f8ff;
+  text-align: center;
+}
+
+.topnav a {
+  color: #333;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav >.icon {
+  display: none;
+  color: #8C82FC;
+}
+
+
+#myLinks a:hover {
+  color: plum;
+}
+
+
+/* hero section */
+
+.hero_section{
+  margin:3% 5% 3% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suxz{
+  color: #8c82fc;
+  font-weight: 700;
+  font-size: 1em;
+}
+.title_section >h2{
+  color: #22293e;
+  font-size: 40px;
+}
+
+.header_img{
+  flex: 1;
+}
+.header_img >img{
+  margin-top: -50px;
+  width: 40vw;
+}
+
+.title_section{
+  flex: 1.5;
+}
+
+.title_section > .parag_hero{
+  color:#22293e ;
+  line-height: 20px;
+  font-weight: 500px;
+}
+.btn-hero{
+  margin: 5% 0 10% 0;
+}
+.start {
+  border-radius:10px;
+  font-size: 15px;
+  padding:12px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  background-color: #8c82fc;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+}
+
+.services{
+  text-decoration:  none;
+  background-color: #f7f7fd;
+  color: #a2b3bf;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+
+/* learnings section */
+
+.learnings_section{
+  background-color: #f8f8ff;
+}
+.title2{
+  margin:0% 5% 5% 5%;
+}
+.title2 > .learnings{
+  color: #8c82fc;
+  font-size: 1em;
+  font-weight: 2em;
+}
+
+.title2>h3{
+  font-size: 2em;
+  font-weight: 1em;
+}
+.title2 >p{
+  color: #222831;
+  font-size: 1em;
+  font-weight: 500;
+}
+.membership {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.items >*{
+  margin: 5%;
+}
+
+.items > img{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.items {
+  border-radius: 10px;
+  width: 80%;
+  height: 30%;
+  margin: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.items >a{
+  display: flex;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #44e4c9;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.item1 {
+  background-color: #ffffff;
+}
+
+.item2 {
+  background-color: #ffffff;
+}
+
+.item3 {
+  color: #ffffff;
+  background-color: #8c82fc;
+}
+
+.item4 {
+  background-color: #ffffff;
+}
+
+
+/* aboutus_section */
+.aboutus_section{
+  display: flex;
+  justify-content: space-around;
+}
+
+.pict_about >img{
+  width: 80%;
+  margin: 5px auto;
+}
+
+/* .about_us{
+  width: 35%; 
+} */
+
+.about_us >.about_title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #8C82FC;
+}
+
+.about_us>h2{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 60px;
+  color: #22293E;
+}
+
+.about_us >p{
+  font-weight: 500;
+  line-height: 30px;
+  color: #222831;
+}
+
+#image{
+  margin:5%;
+  line-height: 1.5em;
+  list-style-image: url(assets/check.png);
+}
+
+
+
+/* company_section */
+
+.company_section {
+  background-color: #F8F8FF;
+  text-align:center ;
+}
+.brands{
+  display: grid;
+  margin: 2% 5% 2% 5%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* testimonial_section */
+.testimonial_section{
+  width: 80% auto;
+}
+
+.testimonial{
+  text-align: center;
+}
+
+.testi{
+  color: #8C82FC;
+  font-weight: 700px;
+  font-size: 20px;
+}
+
+.testimonial>h2{
+  font-weight: 800px;
+  font-size: 2em;
+}
+.testimonial >p {
+  font-style: normal;
+    font-weight: 500px;
+    font-size: 24px;
+}
+
+.alumni{
+  display: flex;
+  margin: 100px 0 30px 0;
+  justify-content: space-around;
+}
+
+.people{
+  text-align: center;
+  border: 2px solid #8C82FC;
+  border-radius: 10px;
+  margin: 10px;
+  width: 20%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.name >h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #22293E;
+}
+
+.name >p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #BAB8D2;
+}
+
+.text >p{
+  margin: 20px 0 20px 0;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.people >img{
+  margin-top: -60px;
+}
+
+/* start_section */
+.start_section{
+  background-image: url(assets/start_section.png);
+  text-align: center;
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.some{
+  margin: 10%;
+}
+
+.text_start{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin: 50px;
+}
+
+.parag_start {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+
+.start-button {
+  text-align: center;
+  margin-top: 50px;
+  height: 70px;
+}
+
+
+
+.btn-start {
+  text-decoration: none;
+  background-color: #8C82FC;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 31px;
+  color: #FFFFFF;
+  width: 2px;
+}
+
+
+.btn-contact {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+
+/* footer */
+
+footer{
+  margin: 4%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+.logo>img {
+  width: 100px;
+}
+
+.phone {
+  color: #8C82FC;
+}
+
+
+.mail {
+  margin: 5px;
+  color: #8C82FC;
+}
+
+/* responsive */
+
+/* handphone*/
+@media screen and (max-width:576px){
+nav{
+  display: none;
+}
+
+.topnav {
+    display: block;
+  }
+
+.people{
+  width: 80%;
+}
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+.header_img>img {
+ width: 80%;
+ margin-top: 5px;
+}
+
+ .hero_section{
+  width: 80%;
+  flex-direction: column-reverse;
+ }
+ .title_section{
+  margin: 10px;
+ }
+
+ .title_section > h2{
+  width: 80%;
+  line-height: 60px;
+ }
+
+ .navigation >li >a {
+    display: none;
+ }
+ .start_section{
+  height: 5%;
+ }
+ .btn-top>a{
+  display: none;
+ }
+ .membership{
+  flex-direction: column;
+ }
+ .aboutus_section{
+  flex-direction: column;
+  margin: 2%;
+ }
+
+.brands{
+  grid-template-columns: 1fr 1fr;
+}
+.about_us{
+  width: 80%;
+  margin: 10%;
+}
+.brand >img{
+  width: 60%;
+}
+.alumni{
+  align-items: center;
+  flex-direction: column;
+}
+.people{
+  margin: 50px;
+}
+footer{
+  grid-template-columns: 1fr 1fr;
+}
+}
