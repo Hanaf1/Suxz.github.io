@@ -94,13 +94,13 @@ nav{
   display: block;
 }
 
-.topnav .icon {
+.topnav >.icon {
   display: none;
   color: #8C82FC;
 }
 
-.topnav >.icon:hover{
-  background-color: #333;
+.topnav .icon:hover{
+  background-color: black;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
