@@ -94,7 +94,7 @@ nav{
   display: block;
 }
 
-.topnav >.icon {
+.topnav .icon {
   display: none;
   color: #8C82FC;
 }
@@ -279,9 +279,7 @@ nav{
   margin: 5px auto;
 }
 
-/* .about_us{
-  width: 35%; 
-} */
+
 
 .about_us >.about_title{
   font-weight: 700;
