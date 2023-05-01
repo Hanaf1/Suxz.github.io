@@ -99,7 +99,7 @@ nav{
   color: #8C82FC;
 }
 
-.topnav .icon:hover{
+.topnav >.icon:hover{
   background-color: black;
   border-radius: 10px;
   -webkit-border-radius: 10px;
