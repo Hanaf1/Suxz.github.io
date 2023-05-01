@@ -101,7 +101,7 @@ nav{
 
 
 #myLinks a:hover {
-  color: plum;
+  color: #8c82fc;
 }
 
 
@@ -517,6 +517,10 @@ nav{
  .start_section{
   height: 5%;
  }
+
+ .title2 >h3{
+  margin: 5px 0 5px 0;
+ }
  .btn-top>a{
   display: none;
  }
@@ -535,6 +539,14 @@ nav{
   width: 80%;
   margin: 10%;
 }
+.pict_about >img{
+  margin: 25px;
+}
+.about_us>h2{
+  font-size: 38px;
+  line-height: 42px;
+  margin: 5px 0 5px 0;
+}
 .brand >img{
   width: 60%;
 }
@@ -547,5 +559,8 @@ nav{
 }
 footer{
   grid-template-columns: 1fr 1fr;
+}
+footer > div{
+  margin: 5px;
 }
 }
